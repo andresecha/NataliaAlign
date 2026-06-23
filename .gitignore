@@ -1,0 +1,45 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Configuración de editores (VS Code, IntelliJ, etc)
+.vscode/
+.idea/
+*.swp
+
+# Modelos descargados de IA (si se guardaran localmente)
+.cache/
+huggingface/
+
+# (Opcional) Si NO quieres que se suban los resultados que genera la gente a GitHub:
+# Descomenta las siguientes dos líneas borrando el '#'
+# resultados/*.csv
+# resultados/*.xlsx
